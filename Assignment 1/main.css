@@ -63,7 +63,6 @@ section.GreyContentContainer p{
   margin:auto;
   padding: 10px 0;
   line-height: 1.4;
-  height: 100%
 }
 
 section.GreyContentContainer h2{
@@ -82,7 +81,7 @@ background-color: white;
   margin:auto;
   padding: 10px 0;
   line-height: 1.4;
-  height: 100%
+
 }
 
 section.GreyContentContainer div.ContainerWithFlex h3{
@@ -90,11 +89,8 @@ background-color: #107698;
 font-weight: 200;
 text-align: center;
 font-size: 24px;
-padding: 25px 20px 25px;
+padding: 15px 20px 25px;
 margin-top: 0px;
-font-variant: small-caps;
-border-top-left-radius: 2px;
-border-top-right-radius: 2px;
 color: #fff;
 }
 
@@ -114,7 +110,10 @@ section.NoFlexContentContainer p{
     text-align: center;
     padding: 10px 0;
     line-height: 1.4;
-    height: 100%
+    max-width: 900px;
+    margin: auto;
+
+
 }
 
 
@@ -124,7 +123,7 @@ section.NoFlexContentContainer p{
   justify-content: center;
   gap: 24px;
   width: 1100px;
-  margin: 0 auto;
+  margin: 48px auto 0;
 }
 
 .ContainerWithFlex article.parttime{
@@ -146,4 +145,35 @@ section.NoFlexContentContainer div.ContainerWithFlex article.parttime h4{
 
 section.GreyContentContainer div.ContainerWithFlex article.consultingflex p span{
   color: #FFA500;
+}
+
+section.whiteContentContainer, section.GreyContentContainer, section.NoFlexContentContainer, section.ContainerWithFlex{
+  padding: 54px 0;
+}
+
+div.ContainerWithFlex article.consultingflex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 1100px;
+  margin: 48px auto 0;
+}
+.consultingflex h3{
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0 16px;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+}
+
+footer{
+  padding: 40px 0;
+  text-align: center;
+  font-size: 18px;
 }
