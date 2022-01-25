@@ -1,5 +1,5 @@
 body{
-  font-family: 'DM sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -9,8 +9,9 @@ p{
   color: #7f969e;
 }
 
-.whiteContentContainer{
+section.whiteContentContainer{
   background color: white;
+  padding: 54px 0;
 }
 
 .GreyContentContainer{
@@ -20,4 +21,113 @@ p{
 .GreyFooter{
   background-color: #504f4f;
   color: #c7c5c5;
+}
+
+section.whiteContentContainer h2{
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.whiteContentContainer p{
+  color: #7f969e;
+  font-size: 16px;
+  text-align: center;
+  max-width: 900px;
+  margin:auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%
+}
+
+section.whiteContentContainer p span.highlight {
+  color:#FFA500;
+}
+
+section.GreyContentContainer h2{
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.GreyContentContainer p{
+  color: #7f969e;
+  font-size: 16px;
+  text-align: center;
+  max-width: 900px;
+  margin:auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%
+}
+
+section.GreyContentContainer h2{
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.GreyContentContainer div.ContainerWithFlex p{
+background-color: white;
+  color: #7f969e;
+  font-size: 16px;
+  text-align: center;
+  max-width: 900px;
+  margin:auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%
+}
+
+section.GreyContentContainer div.ContainerWithFlex h3{
+background-color: #107698;
+font-weight: 200;
+text-align: center;
+font-size: 24px;
+padding: 25px 20px 25px;
+margin-top: 0px;
+font-variant: small-caps;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+color: #fff;
+}
+
+section.NoFlexContentContainer h2{
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.NoFlexContentContainer p{
+  background-color: white;
+    color: #7f969e;
+    font-size: 16px;
+    text-align: center;
+    max-width: 900px;
+    margin:auto;
+    padding: 10px 0;
+    line-height: 1.4;
+    height: 100%
+}
+
+section.NoFlexContentContainer div.ContainerWithFlex article.parttime h4{
+  color: #0a465b;
+  text-align: center;
+  font-weight: 800;
+  border-bottom: 2px #FDB530 solid;
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  display: inline-block;
+  width: 250px;
 }
