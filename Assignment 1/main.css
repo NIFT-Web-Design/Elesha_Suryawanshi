@@ -9,6 +9,49 @@ p{
   color: #7f969e;
 }
 
+header{
+  background-color: #2A2A2A;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);
+  height: 70px;
+}
+
+header img{
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+
+#ourServices{
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+padding-top: 70px;
+padding-bottom: 70px;
+background-position: center;
+  text-align: center;
+  display: block;
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    text-shadow: 1px 2px 3px #000;
+}
+ header nav.navOptions ul li a{
+   display: inline-block;
+   margin-right: 30px;
+   color: white;
+   font-size: 13px;
+   padding: 20px 0;
+   }
+
+ nav.navOptions{
+   float: right;
+   margin-top: 18px;
+   cursor: pointer;
+ }
+
+
+
+
+
 section.whiteContentContainer{
   background color: white;
   padding: 50px 0 70px 0;
@@ -79,8 +122,9 @@ background-color: white;
   font-size: 16px;
   text-align: center;
   margin:auto;
-  padding: 10px 0;
+  padding: 20px 25px;
   line-height: 1.4;
+  max-width: 263px;
 
 }
 
@@ -151,15 +195,8 @@ section.whiteContentContainer, section.GreyContentContainer, section.NoFlexConte
   padding: 54px 0;
 }
 
-div.ContainerWithFlex article.consultingflex{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 24px;
-  width: 1100px;
-  margin: 48px auto 0;
-}
-.consultingflex h3{
+
+/* section.GreyContentContainer div.ContainerWithFlex article.consultingflex h3{
   font-size: 30px;
   font-weight: 300;
   padding: 0 16px;
@@ -167,13 +204,66 @@ div.ContainerWithFlex article.consultingflex{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
   text-align: center;
   margin: auto;
 
+} */
+
+section.GreyContentContainer div.ContainerWithFlex{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+  width: 1100px;
 }
+
+section.GreyContentContainer article h3{
+  font-size: 30px;
+    font-weight: 300;
+    background-color: #107698;
+    color: white;
+    font-variant: all-small-caps;
+    padding: 0 16px;
+    text-align: center;
+    min-height: 50px;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+section.GreyContentContainer article p{
+  display: inline-block;
+  border-top: 5px #d1d1d0 solid;
+    padding: 24px 20px;
+    box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+    padding-top: 50px;
+    height: 220px;
+    width: 280px
+}
+
+
+
+section.GreyContentContainer p span.highlight {
+  color:#FFA500;
+}
+
+
+/* section.GreyContentContainer #trustedBy h2{
+  padding: 40px 80px;
+  margin: auto;
+  align-items: center;
+} */
+#trustedBy img{
+  display: block;
+  margin: 24px auto 0;
+}
+
 
 footer{
   padding: 40px 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
