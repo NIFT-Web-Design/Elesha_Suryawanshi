@@ -4,12 +4,14 @@ p {
   font-weight: normal;
   line-height: 25px;
   width: 1000px;
-  /* text-align: center;
-  align-items: center; */
 }
 
 section {
   padding: 30px 20px;
+
+}
+body{
+  box-shadow: 1px 2px 3px;
 }
 
 
@@ -68,6 +70,7 @@ h3{
 
  header img {
    border-radius: 30px;
+     box-shadow: 1px 2px 3px @000;
  }
 
  #bold {
@@ -76,4 +79,12 @@ h3{
 
 body {
 margin: 0 350px;
+}
+
+@media (max-width:1000px)
+
+{
+  .body{
+    margin: 10px;
+  }
 }
