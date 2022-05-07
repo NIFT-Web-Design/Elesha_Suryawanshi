@@ -1,25 +1,23 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
   margin: 0;
 }
 
-p{
+p {
   line-height: 1.4;
   color: #000000;
 }
 
-header{
+header {
   background-color: #423C3C;
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);
   height: 70px;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
 }
-
 
 header nav a {
   color: #7C6B6A;
@@ -42,44 +40,43 @@ nav a:hover {
   padding-bottom: 0px;
   padding-left: 200px;
   padding-right: 205px;
-
 }
 
 #logo h1 {
   background-color: #000000;
-text-align: center;
-    display: block;
-    align-items: center;
-      font-size: 30px;
-      color: white;
-      font-weight: lighter;
-      margin-top: 0;
-      padding-top: 50px;
-      padding-bottom: 50px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-div.flex img{
+div.flex img {
   height: 300px;
 }
 
-h2{
+h2 {
   color: white;
   font-weight: normal;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   font-size: 50px;
 }
 
-section.flexBox   {
+/* section.flexBox   {
   display: flex;
   flex-flow:row;
   justify-content: center;
   gap: 24px;
   width: 1100px;
   margin: 48px auto 0;
-}
-
+  margin-top:0;
+} */
 div.textWithBackground p {
   background-color: #000000;
   font-size: 30px;
@@ -88,67 +85,112 @@ div.textWithBackground p {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-
 }
 
-.shop{
+.shop {
   background-color: #7C6B6A;
   padding: 50px 0 70px 0;
 }
 
-
-section.shop p{
+section.shop p {
   color: #000000;
   font-size: 16px;
   text-align: center;
   max-width: 900px;
-  margin:auto;
+  margin: auto;
   padding: 10px 0;
   line-height: 1.4;
 }
 
-
-section.shop div.flexBox p{
-background-color: white;
+section.shop div.flexBox p {
+  background-color: white;
   color: #000000;
   font-size: 16px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   padding: 20px 25px;
   line-height: 1.4;
   max-width: 263px;
-
 }
 
-section.shop div.flexBox h3{
-background-color: #423C3C;
-color: white;
-font-weight: 400;
-text-align: center;
-font-size: 24px;
-padding: 25px 20px 25px;
-margin-top: 0px;
-color: #fff;
+section.shop div.flexBox h3 {
+  background-color: #423C3C;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 24px;
+  padding: 25px 20px 25px;
+  margin-top: 0px;
+  color: #fff;
 }
 
-section.shop div.flexBox img{
-background-color: white;
-align-items: center;
-  margin:auto;
+section.shop div.flexBox img {
+  background-color: white;
+  align-items: center;
+  margin: auto;
   padding: 20px 25px;
   line-height: 1.4;
   max-width: 263px;
-
 }
 
 .flexBox {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 24px;
-  width: 1100px;
+  gap: 50px;
+  width: 1800px;
   margin: 48px auto 0;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.About {
+  background-color: #000000;
+  align-items: center;
+  padding-bottom: 80px;
+
+}
+
+.info img{
+  height: 320px;
+  border: 10px solid white;
+
+}
+
+.info p{
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.info{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding-left: 300px;
+  padding-right: 200px;
+
+}
+
+div.flexBox input {
+  background-color: white;
+  color: #000000;
+  font-size: 18px;
+  padding: 12px 24px;
+  width: 200px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-footer
+footer {
+  background-color: #423C3C;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+}
