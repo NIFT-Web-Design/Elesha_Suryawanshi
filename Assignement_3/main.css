@@ -63,9 +63,15 @@ h2 {
   color: white;
   font-weight: normal;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 50px;
+  background-color: #000000;
+  display:inline-block;
+  margin-left: 725px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 /* section.flexBox   {
@@ -89,6 +95,9 @@ div.textWithBackground p {
 
 .shop {
   background-color: #7C6B6A;
+  background-image: url(https://bidrihandicraft.com/image/catalog/144.png);
+  background-repeat:no-repeat;
+  background-size:cover;
   padding: 50px 0 70px 0;
 }
 
@@ -114,7 +123,7 @@ section.shop div.flexBox p {
 }
 
 section.shop div.flexBox h3 {
-  background-color: #423C3C;
+  background-color: #000000;
   color: white;
   font-weight: 400;
   text-align: center;
@@ -183,6 +192,26 @@ div.flexBox input {
   margin-top: 8px;
   margin-bottom: 25px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.photos{
+  background-color: #000000;
+}
+
+.photos h2{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.pics{
+  display: flex;
+  flex-flow: row;
+  height: 250px;
+  grid-gap: 10px;
+  padding-left: 35px;
+  padding-bottom: 45px;
+
 }
 
 
