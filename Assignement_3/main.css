@@ -53,6 +53,8 @@ nav a:hover {
   margin-top: 0;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
 div.flex img {
@@ -74,16 +76,8 @@ h2 {
 
 }
 
-/* section.flexBox   {
-  display: flex;
-  flex-flow:row;
-  justify-content: center;
-  gap: 24px;
-  width: 1100px;
-  margin: 48px auto 0;
-  margin-top:0;
-} */
-div.textWithBackground p {
+
+.tagline p {
   background-color: #000000;
   font-size: 30px;
   font-weight: lighter;
@@ -91,6 +85,7 @@ div.textWithBackground p {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 0px;
 }
 
 .shop {
@@ -193,6 +188,35 @@ div.flexBox input {
   margin-bottom: 25px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.history{
+  background-color: #7C6B6A;
+}
+
+
+
+.history h2{
+font-size: 30px;
+text-align: left;
+margin: 0px;
+margin-left: 100px;
+margin-top: 100px;
+margin-bottom: 0px;
+}
+
+.history div.info{
+  display: flex;
+  flex-flow: row;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.history img{
+margin-top: 30px;
+}
+
 
 .photos{
   background-color: #000000;
